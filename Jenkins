@@ -1,0 +1,5 @@
+sudo apt update -y 
+sudo apt install openjdk-17-jdk -y
+wget https://github.com/Sathya252/Deployment-script/raw/main/jenkins.sh
+chmod +x jenkins.sh 
+sudo ./jenkins.sh

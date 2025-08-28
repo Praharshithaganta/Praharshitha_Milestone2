@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/Praharshithaganta/Praharshitha_Milestone.git'
+                git branch: 'master', url: 'https://github.com/Praharshithaganta/Milestone2.git'
         }
 
         stage('Build with Maven') {
